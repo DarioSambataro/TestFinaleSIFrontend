@@ -1,0 +1,59 @@
+<div class = "container">
+<div class = "row">
+  <div class = "col-4"></div>
+  <div class = "col-4">
+    <form #signupForm = "ngForm" (ngSubmit) = "submit(signupForm)">
+      <div class = "container-fluid">
+        Signup
+        <div class = "row">
+          <div class = "col-6">
+
+            <div class="mb-3">
+
+              <label for="exampleInputFirstname1" class="form-label"></label>
+              <input type="text" class="form-control" id="exampleInputFirstname1" name = "firstname" [(ngModel)] = "this.signuprequest.firstname" placeholder = "Nome" ngModel aria-describedby="emailHelp" required firstname>
+            </div>
+
+
+          </div>
+
+          <div class = "col-6">
+            <div class="mb-3">
+              <label for="exampleInputLastname1" class="form-label"></label>
+              <input type="text" class="form-control" id="exampleInputLastname1" name = "lastname" [(ngModel)] = "this.signuprequest.lastname"  placeholder = "Cognome" ngModel required lastname>
+            </div>
+          </div>
+
+        </div>
+
+        <div class = "row">
+          <div class = "col-6">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" name = "email"  [(ngModel)] = "this.signuprequest.email" placeholder = "Email"  ngModel required email>
+            </div>
+          </div>
+
+          <div class = "col-6">
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name = "password" [(ngModel)] = "this.signuprequest.password" placeholder = "Password" #passwordField = "ngModel"
+                     ngModel required password pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{6,30}$"/>
+              <div *ngIf="passwordField.errors?.['pattern']">
+                La password deve contenere almeno 6 caratteri, almeno uno lettera maiuscola, almeno uno numero e almeno un carattere speciale.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label text-info" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-outline-info" routerLink = "/home">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div class = "col-4"></div>
+</div>
+

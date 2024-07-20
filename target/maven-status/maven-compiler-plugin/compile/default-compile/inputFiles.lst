@@ -1,0 +1,13 @@
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\CorsFilter.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\dao\UtenteDao.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\dto\UtenteLoginRequestDto.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\dto\UtenteLoginResponseDto.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\dto\UtenteSignupDto.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\JerseyConfig.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\jwt\JWTTokenNeeded.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\jwt\JWTTokenNeededFilter.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\jwt\Secured.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\model\Utente.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\service\UtenteService.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\service\UtenteServiceImpl.java
+C:\Users\larsj\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\test_dario_sambataro\src\main\java\it\project\TestDarioSambataroApplication.java

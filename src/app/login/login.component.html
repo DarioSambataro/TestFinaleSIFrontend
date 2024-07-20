@@ -1,0 +1,26 @@
+
+<div class = "container">
+  <div class = "row">
+    <div class = "col-4"></div>
+
+    <div class = "col-4">
+      <form #loginForm = "ngForm"  (ngSubmit) = "submit(loginForm)">
+        <div class="mb-3">
+          <h2 class = "text-info ">Login</h2>
+          <label for="exampleInputEmail1"  class="form-label"></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" name = "email" [(ngModel)] = "this.loginrequest.email" placeholder = "Email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1"  class="form-label"></label>
+          <input type="password" class="form-control" name = "password" [(ngModel)] = "this.loginrequest.password" id="exampleInputPassword1"  placeholder = "Password"
+                 #passwordField = "ngModel" required ngModel password pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{6,30}$"/>
+          <div *ngIf="passwordField.errors?.['pattern']">
+            La password deve contenere almeno 6 caratteri, almeno uno lettera maiuscola, almeno uno numero e almeno un carattere speciale.
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-info" routerLink = "/home">Submit</button>
+      </form>
+    </div>
+    <div class = "col-4"></div>
+  </div>
+</div>
